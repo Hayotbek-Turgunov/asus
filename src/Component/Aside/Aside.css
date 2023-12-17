@@ -1,0 +1,166 @@
+.aside-container {
+    width: 1500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.aside-card-main-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.aside-card-main-left {
+    width: 50%;
+}
+
+
+
+.aside-card-main-left {
+    background-image: url('../../Assets/aside-left-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    height: 500px;
+}
+
+.aside-card-main-left-button {
+    /* width: 100%; */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.aside-card-main-left-button-deck {
+    font-family: sans-serif;
+    color: white;
+    opacity: 1;
+    font-size: 1.0625rem;
+    color: #ccc;
+    line-height: 25px;
+}
+
+.aside-card-main-right {
+    width: 50%;
+}
+
+.aside-card-main-right-main-item-wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.aside-card-main-right-main-item-1,
+.aside-card-main-right-main-item-2,
+.aside-card-main-right-main-item-3,
+.aside-card-main-right-main-item-4 {
+    width: 48.5%;
+    height: 240px;
+    display: flex;
+    align-items: end;
+}
+
+.aside-card-main-right-main-item-1 {
+    background-image: url('../../Assets/aside-right-img0.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.aside-card-main-right-main-item-2 {
+    background-image: url('../../Assets//aside-right-img1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aside-card-main-right-main-item-3 {
+    background-image: url('../../Assets/aside-right-img2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aside-card-main-right-main-item-4 {
+    background-image: url('../../Assets/aside-right-img3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aside-card-main-right-main-item-button {
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    padding: 10px;
+}
+
+.aside-card-main-right-main-item-button p {
+    color: white;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+
+
+@media only screen and (max-width: 1385px) {
+    .aside-card-main-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .aside-card-main-left {
+        width: 100%;
+    }
+
+    .aside-card-main-right-main-item-1,
+    .aside-card-main-right-main-item-2,
+    .aside-card-main-right-main-item-3,
+    .aside-card-main-right-main-item-4 {
+        width: 100%;
+        height: 500px;
+    }
+
+    .aside-card-main-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .aside-card-main-left {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aside-card-main-right-main-item-button {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .aside-card-main-left {
+        height: 300px;
+    }
+
+    .aside-card-main-right-main-item-1,
+    .aside-card-main-right-main-item-2,
+    .aside-card-main-right-main-item-3,
+    .aside-card-main-right-main-item-4 {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .aside-card-main-left-button {
+        /* width: 100%; */
+        padding: 10px;
+        background-color: rgba(0, 0, 0, .4);
+        font-size: 14px;
+    }
+}

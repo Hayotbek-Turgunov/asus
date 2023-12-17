@@ -1,0 +1,31 @@
+.Hero-Bg-Wrapper {
+    background-image: url("../../Assets/hero-bg.webp");
+    /* The image used */
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 700px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.hero-bg-heading-top {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.hero-bg-heading-top-link {
+    font-family: sans-serif;
+    font-weight: 600;
+    color: dodgerblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 40px;
+}
