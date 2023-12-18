@@ -5,7 +5,7 @@ import Businnes from './Component/Businnes/Businnes'
 import ColBannerCard from './Component/ColBannerCard/ColBannerCard'
 import EventsCard from './Component/EventsCard/EventsCard'
 import Aside from './Component/Aside/Aside'
-
+import Footer from './Component/Footer/Footer'
 
 function App() {
     return (
@@ -16,6 +16,7 @@ function App() {
             <ColBannerCard />
             <EventsCard />
             <Aside />
+            <Footer />
         </div>
     );
 }
